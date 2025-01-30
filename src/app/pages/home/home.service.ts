@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 
-export class CharactersService {
+export class HomeService {
   async getCharacters() {
     const response = await fetch('https://hp-api.herokuapp.com/api/characters');
     const data = await response.json();
